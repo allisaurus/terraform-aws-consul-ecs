@@ -34,8 +34,7 @@ variable "consul_image" {
 variable "consul_ecs_image" {
   description = "consul-ecs Docker image."
   type        = string
-  # todo: update to "docker.io/hashicorp/consul-ecs:0.1.0"
-  default = "ghcr.io/lkysow/consul-ecs:apr27-2"
+  default     = "docker.io/hashicorp/consul-ecs:0.1.0"
 }
 
 variable "log_configuration" {
